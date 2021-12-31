@@ -1,11 +1,20 @@
-<nav class="navbar is-black is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbar">
     <div class="container">
 
         <!-- logo or branding image on left side -->
         <div class="navbar-brand">
-            <a class="navbar-item"
-                href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
-                <strong>{{site.title}}</strong>
+            {% assign branding = site.site-branding %}
+            {% if branding == nil %}
+                {% assign branding = 'default' %}
+            {% endif %}
+            <a class="navbar-item branding-{{branding}}"
+            href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">
+                {% if branding contains 'logo' %}
+                    <img src="{{site.url}}{{site.baseurl}}{{site.site-logo}}" alt="{{site.title}}" title="{{site.title}}" />
+                {% endif %}
+                {% if branding contains 'title' or branding == 'default' %}
+                    <strong>{{site.title}}</strong>
+                {% endif %}
             </a>
             <div class="navbar-burger" data-target="navbar-menu">
                 <span></span>
@@ -15,7 +24,7 @@
         </div>
 
         <!-- children of navbar-menu must be navbar-start and/or navbar-end -->
-        <div class="navbar-menu has-background-black" id="navbar-menu">
+        <div class="navbar-menu" id="navbar-menu">
             <!-- navbar items | left side -->
             <!-- <div class="navbar-start">
             </div> -->
@@ -25,11 +34,13 @@
                     href="{% if page.layout == 'default' %}{{site.url}}{{site.baseurl}}/#{% else %}{{site.url}}{{site.baseurl}}/{% endif %}">HOME</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#about">ABOUT</a>
                 <a class="navbar-item" href="{{site.url}}{{site.baseurl}}/#contact">CONTACT</a>
+                
+                {% comment %}
                 <a class="navbar-item {% if page.layout == 'blog' %}is-active{% endif %}"
                     href="{{site.url}}{{site.baseurl}}/blog">BLOG</a>
                 {% include dropdown.html %}
+                {% endcomment %}
             </div>
-
         </div>
     </div>
 </nav>

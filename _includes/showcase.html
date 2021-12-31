@@ -1,15 +1,27 @@
-<section class="hero is-fullheight has-text-centered" id="hero">
+{% assign herovideo = site.herovideo %}
+{% if herovideo != nil %}
+  {% assign hero_class = 'has-video' %}
+{% else %}
+  {% assign hero_class = 'no-video' %}
+{% endif %}
+
+<section class="hero is-fullheight has-text-centered {{hero_class}}" id="hero">
+  {% if herovideo != nil %}
+  <video id="hero-video" autoplay="" loop="" src="{{herovideo}}"></video>
+  {% endif %}
   <div class="hero-body">
     <div class="container">
+      {% comment %}
       <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold">
         {{site.title}}
       </h1>
-      <h3 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
+      {% endcomment %}
+      <h2 class="subtitle has-text-white-bis is-uppercase has-text-weight-medium is-marginless">
         {{site.description}}
-      </h3>
+      </h2>
       <hr>
       <a href="{{site.url}}{{site.baseurl}}/#about"
-        class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read More</a>
+        class="button is-primary is-rounded is-uppercase has-text-weight-normal">Read More</a>
       </a>
     </div>
   </div>
