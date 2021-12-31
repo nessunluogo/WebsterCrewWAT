@@ -4,12 +4,6 @@
 @import "main.scss";
 
 
-// Variables
-$spacer: 1rem;
-$video_opacity: .4;
-$primary: #701414;
-
-
 // Header
 #navbar {
     opacity: 0.95;
@@ -27,6 +21,8 @@ $primary: #701414;
 
 a.navbar-item,
 .navbar-link {
+    transition: $transition_base;
+
     &:hover {
         background-color: rgba($color: silver, $alpha: 0.25) !important;
         color: $primary !important;
