@@ -6,8 +6,10 @@ url:
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
-# Title of the Site
+# Title, slogan and motto of the Site
 title: Webster Crew
+slogan: IT Solutions
+meta-description: We develops the future now
 # Description of the Site
 description: >-
   We are an Internet Crew that develops the future with the new technologies now.
@@ -37,7 +39,7 @@ heroimage: /assets/images/1280x720_Placeholder.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: contact@webstercrew.net
+email: contactus@webstercrew.net
 facebook_username: lorenzo.citro.dot.xero
 # twitter_username: webstercrew
 # instagram_username: webstercrew

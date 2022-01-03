@@ -92,7 +92,7 @@ body {
 a {
     transition: $transition_base;
 
-    &:hover {
+    &:hover, &:focus {
         color: $primary;
     }
 
@@ -101,7 +101,7 @@ a {
         &-primary {
             color: $primary !important;
 
-            &:hover {
+            &:hover, &:focus {
                 color: lighten($primary, 10%) !important;
             }
         }
@@ -139,10 +139,13 @@ a {
     }
 }
 
-figure {
-    &.services {
-        img {
-            max-width: 800px;
+@media screen and (min-width: 1024px) {
+    figure {
+        &.services {
+            img {
+
+                max-width: 800px;
+            }
         }
     }
 }

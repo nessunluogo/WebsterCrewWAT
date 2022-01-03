@@ -7,7 +7,7 @@
 
 <section class="hero is-fullheight has-text-centered {{hero_class}}" id="hero">
   {% if herovideo != nil %}
-  <video id="hero-video" autoplay="" loop="" src="{{herovideo}}"></video>
+  <video id="hero-video" muted playsinline autoplay="" loop="" src="{{herovideo}}" type="video/mp4" onload="this.play()"></video>
   {% endif %}
   <div class="hero-body">
     <div class="container">
@@ -20,7 +20,7 @@
         {{site.description}}
       </h2>
       <hr>
-      <a href="{{site.url}}{{site.baseurl}}/#about"
+      <a href="{{site.url}}{{site.baseurl}}/#cases"
         class="button is-primary is-rounded is-big is-uppercase has-text-weight-normal">Read More</a>
       </a>
     </div>
