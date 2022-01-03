@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
@@ -25,38 +25,44 @@ site-branding: logo
 site-logo: /assets/images/logo.png
 # URL of the Video of Custom Hero Video
 herovideo: /assets/videos/hero-video.mp4
+# URL of the case-histories download
+case-histories: /assets/downloads/case-histories.pdf
+# URL of the services images
+services-image: /assets/images/services.png
+# Services about text:
+services-about: The Webster Crew space has been using the platform Jekyll written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open source Massachusetts Institute of Technology License and customized in dynamic setting by Webster Crew. The icons are by Thenounproject. The Webster Crew brand is under Creative Commons License. Attribution - Non Commercial - No Derivative Works.
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: /assets/images/1280x720_Placeholder.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: info@webstercrew.net
-facebook_username: webstercrew
-twitter_username: webstercrew
-instagram_username: webstercrew
-linkedin_username: webstercrew
-github_username:  webstercrew
-youtube_channel_id: webstercrew
-reddit_username: webstercrew
-behance_username: webstercrew
-dribbble_username: webstercrew
-spotify_username: webstercrew
+email: contact@webstercrew.net
+facebook_username: lorenzo.citro.dot.xero
+# twitter_username: webstercrew
+# instagram_username: webstercrew
+linkedin_username: lorenzocitro
+# github_username:  webstercrew
+# youtube_channel_id: webstercrew
+# reddit_username: webstercrew
+# behance_username: webstercrew
+# dribbble_username: webstercrew
+# spotify_username: webstercrew
 
 # Google Analytics
-google-analytics: UA-XXXXXXXXX-Y
+#google-analytics: UA-XXXXXXXXX-Y
 
 # Disqus
-disqus-shortname: webstercrew
+# disqus-shortname: webstercrew
 
 # Name of the Author
 author-name: Lorenzo Citro
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /assets/images/author.jpg
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: We are an Internet Crew who deal with digital marketing and IT development. We worked for RCS - Rizzoli Corriere della Sera, Mondandori, Tiscali Italia, Tiscali UK, CondéNast and other international companies such as ENI and TotalErg (the latter in the ASO field). We are a research team managed by me, in fact I'm the IT Business Developer and I work on different projects. We offer outsourced services to support each project.<br/>My name is <strong>Lorenzo Citro</strong>, I am the founder and I'm a Digital Marketing Manager and IT Business Developer.<br/>My life is the Net.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/webstercrew
+author-url: https://www.linkedin.com/in/lorenzocitro/
 
 # SASS
 sass:
