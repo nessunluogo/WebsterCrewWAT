@@ -3,23 +3,23 @@
         <div class="container">
             {% unless site.facebook_username == %}
             <a id="contact-button" href="https://m.me/{{site.facebook_username}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-primary is-outlined has-text-weight-semibold column is-two-fifths"
+                class="button is-rounded is-uppercase has-text-weight-normal is-primary is-outlined column is-two-fifths"
                 target="_blank">
-                <i class="fab fa-facebook-messenger"></i>Ping the founder on Messenger
+                <i class="fab fa-facebook-messenger"></i>Ping the founder
             </a>
             {% endunless %}
             {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-primary is-outlined has-text-weight-semibold column is-two-fifths"
+                class="button is-rounded is-uppercase has-text-weight-normal is-primary is-outlined column is-two-fifths"
                 target="_blank">
-                <i class="fas fa-envelope"></i>Send us an Email
+                <i class="fas fa-envelope"></i>Email us
             </a>
             {% endunless %}
             {% unless site.twitter_username == %}
             <a id="contact-button" href="https://www.twitter.com/intent/tweet?screen_name={{site.twitter_username}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-primary is-outlined has-text-weight-semibold column is-two-fifths"
+                class="button is-rounded is-uppercase has-text-weight-normal is-primary is-outlined column is-two-fifths"
                 target="_blank">
-                <i class="fab fa-twitter"></i>Tweet me on Twitter
+                <i class="fab fa-twitter"></i>Tweet us
             </a>
             {% endunless %}
             <hr>
