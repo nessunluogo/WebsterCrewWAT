@@ -28,7 +28,8 @@ site-logo: /assets/images/logo.png
 # URL of the Video of Custom Hero Video
 herovideo: /assets/videos/hero-video.mp4
 # URL of the case-histories download
-case-histories: /assets/downloads/case-histories.pdf
+case-histories: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i_bkkCqOz8Mc27HZAgwrQtvyQ/preview?usp=sharing
+case-histories-download: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i_bkkCqOz8Mc27HZAgwrQtvyQ/export?format=pdf
 # URL of the services images
 services-image: /assets/images/services.png
 # Services about text:

@@ -9,11 +9,12 @@
                     <br><br>
                     <div class="container columns is-centered">
                         <div>
-                            <a href="{{site.case-histories}}" target="_blank"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-primary">
-                                <i class="fa fa-download"></i>&nbsp;
+                            <button
+                                class="button is-rounded is-uppercase has-text-weight-normal is-primary js-modal-trigger"
+                                data-target="modal-js-cases">
+                                <i class="fas fa-file-alt"></i>&nbsp;
                                 Case histories
-                            </a>
+                            </button>
                         </div>
                     </div>
                     <div class="container columns is-centered">
@@ -25,7 +26,8 @@
                             </a>
                         </div>
                     </div>
-                    <br><br><hr><br><br>
+                    <br><br>
+                    <hr><br><br>
                     <div class="container columns is-centered">
                         <div>
                             <p>{{site.services-about}}</p>
@@ -35,3 +37,22 @@
             </div>
         </div>
 </section>
+
+<div id="modal-js-cases" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content container">
+        <div class="box">
+            {% if site.case-histories-download %}
+            <a href="{{site.case-histories-download}}" download target="_blank"
+                class="button is-rounded is-uppercase has-text-weight-normal is-primary">
+                <i class="fa fa-file-pdf"></i>&nbsp;
+                Download PDF
+            </a>
+            {% endif %}
+            <iframe src={{site.case-histories}} class="">
+                <a href="{{site.case-histories}}" target="_blank">Open in a separate window</a>
+            </iframe>
+        </div>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+</div>

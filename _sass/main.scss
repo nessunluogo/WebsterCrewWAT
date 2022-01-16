@@ -73,6 +73,10 @@ body {
     font-weight: bold;
 }
 
+.is-fluid {
+    width: 100% !important;
+}
+
 .columns {
     .button {
         margin: 0.5rem !important;
@@ -161,8 +165,28 @@ a {
     figure {
         &.services {
             img {
-
                 max-width: 800px;
+            }
+        }
+    }
+}
+
+.modal {
+    &-content {
+        margin: 20px;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+
+        .box {
+            flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+
+            > iframe {
+                width: 100%;
+                flex: 1 1 auto;
             }
         }
     }
