@@ -8,13 +8,28 @@
                     </figure>
                     <br><br>
                     <div class="container columns is-centered">
-                        <div>
-                            <button
-                                class="button is-rounded is-uppercase has-text-weight-normal is-primary js-modal-trigger"
-                                data-target="modal-js-cases">
-                                <i class="fas fa-file-alt"></i>&nbsp;
-                                Case histories
-                            </button>
+                        <div class="case-histories-{{site.case-histories-type}}">
+                            {% case site.case-histories-type %}
+                                {% when "modal" %}
+                                    <button
+                                        class="button is-rounded is-uppercase has-text-weight-normal is-primary js-modal-trigger"
+                                        data-target="modal-js-cases">
+                                        <i class="fas fa-file-alt"></i>&nbsp;
+                                        Case histories
+                                    </button>
+                                {% when "link" %}
+                                    <a href="{{site.case-histories-link}}" target="_blank"
+                                        class="button is-rounded is-uppercase has-text-weight-normal is-primary">
+                                        <i class="fas fa-file-alt"></i>&nbsp;
+                                        Case histories
+                                    </a>
+                                {% when "download" %}
+                                    <a href="{{site.case-histories-link}}" download
+                                        class="button is-rounded is-uppercase has-text-weight-normal is-primary">
+                                        <i class="fas fa-file-alt"></i>&nbsp;
+                                        Case histories
+                                    </a>
+                            {% endcase %}
                         </div>
                     </div>
                     <div class="container columns is-centered">
@@ -38,6 +53,7 @@
         </div>
 </section>
 
+{% if site.case-histories-type == 'modal' %}
 <div id="modal-js-cases" class="modal">
     <div class="modal-background"></div>
     <div class="modal-content container">
@@ -49,10 +65,11 @@
                 Download PDF
             </a>
             {% endif %}
-            <iframe src={{site.case-histories}} class="">
-                <a href="{{site.case-histories}}" target="_blank">Open in a separate window</a>
+            <iframe src={{site.case-histories-link}} class="">
+                <a href="{{site.case-histories-link}}" target="_blank">Open in a separate window</a>
             </iframe>
         </div>
     </div>
     <button class="modal-close is-large" aria-label="close"></button>
 </div>
+{% endif %}

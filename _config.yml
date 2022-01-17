@@ -21,14 +21,17 @@ site-image: /assets/images/meta.jpg
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
 favicon-url: /assets/images/favicon.ico
-# Site branding mode (select logo, title, logo+title)
+# Site branding mode. Select logo, title, logo+title
 site-branding: logo
 # URL of Image of the Site
 site-logo: /assets/images/logo.png
 # URL of the Video of Custom Hero Video
 herovideo: /assets/videos/hero-video.mp4
+# Case histories mode. Select link, download, modal
+case-histories-type: link
 # URL of the case-histories download
-case-histories: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i_bkkCqOz8Mc27HZAgwrQtvyQ/preview?usp=sharing
+case-histories-link: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i_bkkCqOz8Mc27HZAgwrQtvyQ/edit?usp=sharing
+#case-histories-link: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i_bkkCqOz8Mc27HZAgwrQtvyQ/preview
 case-histories-download: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i_bkkCqOz8Mc27HZAgwrQtvyQ/export?format=pdf
 # URL of the services images
 services-image: /assets/images/services.png
