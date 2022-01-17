@@ -89,6 +89,8 @@ a.navbar-item.is-active {
 
     &.has-video {
         background: rgb(0, 0, 0);
+        max-width: 100vw;
+        overflow-x: hidden;
 
         &::before {
             content: none;
@@ -105,6 +107,8 @@ a.navbar-item.is-active {
         min-height: auto;
         object-fit: cover;
         opacity: $video_opacity;
+        height: 100%;
+        width: 100%;
     }
 }
 .title {
