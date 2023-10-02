@@ -30,8 +30,7 @@ herovideo: /assets/videos/hero-video.mp4
 # Case histories mode. Select link, download, modal
 case-histories-type: link
 # URL of the case-histories download
-case-histories-link: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i_bkkCqOz8Mc27HZAgwrQtvyQ/edit?usp=sharing
-#case-histories-link: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i_bkkCqOz8Mc27HZAgwrQtvyQ/preview
+case-histories-link: /case-histories
 case-histories-download: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i_bkkCqOz8Mc27HZAgwrQtvyQ/export?format=pdf
 # URL of the services images
 services-image: /assets/images/services.png
@@ -78,7 +77,6 @@ sass:
 # Build settings
 plugins:
   - jekyll-admin
-  - jekyll-feed
 
 # Permalink
 permalink: "blog/:title"
@@ -94,10 +92,10 @@ defaults:
       type: 'posts'
     values:
       layout: post
-      post-image: ""
-      description: ""
+      post-image: ''
+      description: ''
       tags:
-        - ""
+        - ''
   -
     scope:
       type: 'pages'

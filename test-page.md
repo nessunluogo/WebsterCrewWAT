@@ -1,6 +1,7 @@
 ---
 title: Test Page
 layout: page
+permalink: /test-page
 ---
 
 # This is heading 1

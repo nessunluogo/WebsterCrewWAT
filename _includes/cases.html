@@ -10,39 +10,40 @@
                     <div class="container columns is-centered">
                         <div class="case-histories-{{site.case-histories-type}}">
                             {% case site.case-histories-type %}
-                                {% when "modal" %}
-                                    <button
-                                        class="button is-rounded is-uppercase has-text-weight-normal is-primary js-modal-trigger"
-                                        data-target="modal-js-cases">
-                                        <i class="fas fa-file-alt"></i>&nbsp;
-                                        Case histories
-                                    </button>
-                                {% when "link" %}
-                                    <a href="{{site.case-histories-link}}" target="_blank"
-                                        class="button is-rounded is-uppercase has-text-weight-normal is-primary">
-                                        <i class="fas fa-file-alt"></i>&nbsp;
-                                        Case histories
-                                    </a>
-                                {% when "download" %}
-                                    <a href="{{site.case-histories-link}}" download
-                                        class="button is-rounded is-uppercase has-text-weight-normal is-primary">
-                                        <i class="fas fa-file-alt"></i>&nbsp;
-                                        Case histories
-                                    </a>
+                            {% when "modal" %}
+                            <button
+                                    class="button is-rounded is-uppercase has-text-weight-normal is-primary js-modal-trigger"
+                                    data-target="modal-js-cases">
+                                <i class="fas fa-file-alt"></i>&nbsp;
+                                Case histories
+                            </button>
+                            {% when "link" %}
+                            <a href="{{site.case-histories-link}}"
+                               class="button is-rounded is-uppercase has-text-weight-normal is-primary">
+                                <i class="fas fa-file-alt"></i>&nbsp;
+                                Case histories
+                            </a>
+                            {% when "download" %}
+                            <a href="{{site.case-histories-link}}" download
+                               class="button is-rounded is-uppercase has-text-weight-normal is-primary">
+                                <i class="fas fa-file-alt"></i>&nbsp;
+                                Case histories
+                            </a>
                             {% endcase %}
                         </div>
                     </div>
                     <div class="container columns is-centered">
                         <div>
                             <a href="{{site.url}}{{site.baseurl}}/#contact"
-                                class="button is-rounded is-uppercase has-text-weight-normal is-primary is-outlined">
+                               class="button is-rounded is-uppercase has-text-weight-normal is-primary is-outlined">
                                 <i class="fas fa-paper-plane"></i>&nbsp;
                                 Contact Us
                             </a>
                         </div>
                     </div>
                     <br><br>
-                    <hr><br><br>
+                    <hr>
+                    <br><br>
                     <div class="container columns is-centered">
                         <div>
                             <p>{{site.services-about}}</p>
@@ -60,7 +61,7 @@
         <div class="box">
             {% if site.case-histories-download %}
             <a href="{{site.case-histories-download}}" download target="_blank"
-                class="button is-rounded is-uppercase has-text-weight-normal is-primary">
+               class="button is-rounded is-uppercase has-text-weight-normal is-primary">
                 <i class="fa fa-file-pdf"></i>&nbsp;
                 Download PDF
             </a>

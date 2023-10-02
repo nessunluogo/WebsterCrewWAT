@@ -112,6 +112,7 @@ body {
 
 /* Links */
 a {
+    color: lighten($primary, 20);
     transition: $transition_base;
 
     &:hover, &:focus {
