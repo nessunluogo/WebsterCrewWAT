@@ -192,3 +192,21 @@ a {
         }
     }
 }
+
+.icon {
+    vertical-align: middle;
+}
+body {
+
+    .container {
+        min-width: 0;
+    }
+
+    .hero-body {
+        padding-top: 3.25rem;
+
+        @media screen and (min-width: $md-switch-width) {
+            padding-top: 92px;
+        }
+    }
+}
