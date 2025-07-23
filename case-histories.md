@@ -14,9 +14,6 @@ developing), **Tiscali UK** (inside content and videoproducing unit), **CondéNa
 research and developing team managed by me, in fact I’m the IT Business Developer. We offer outsourced services to 
 support each projects.
 
-My name is _Lorenzo Citro_, I am the founder and [this is my LinkedIn
-profile {% include icon-linkedin.html %}](https://www.linkedin.com/in/lorenzocitro){:target="_blank"}.
-
 We work using different back and frontend technologies: C, C++, C#, .Net, Java, Node.js, PHP (Magento, Drupal,
 Prestashop), Python, Ruby, React, React Native, Angular, Objective C, Swift, Flutter, Ionic.
 

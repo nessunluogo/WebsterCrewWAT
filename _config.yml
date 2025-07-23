@@ -7,7 +7,7 @@ url:
 baseurl: 
 
 # Title, slogan and motto of the Site
-title: Webster Crew
+title: Cither Home
 slogan: IT Solutions
 meta-description: We develop the future now
 # Description of the Site
@@ -35,30 +35,30 @@ case-histories-download: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i
 # URL of the services images
 services-image: /assets/images/services.png
 # Services about text:
-services-about: The Webster Crew space has been using the platform Jekyll written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open source Massachusetts Institute of Technology License and customized in dynamic setting by Webster Crew. The icons are by Thenounproject. The Webster Crew brand is under Creative Commons License. Attribution - Non Commercial - No Derivative Works.
+services-about: The Cither Home space has been using the platform Jekyll written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open source Massachusetts Institute of Technology License and customized in dynamic setting by Cither Home. The icons are by Thenounproject. The Cither Home brand is under Creative Commons License. Attribution - Non Commercial - No Derivative Works.
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: /assets/images/1280x720_Placeholder.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: contactus@webstercrew.net
-facebook_username: lorenzo.citro.dot.xero
-# twitter_username: webstercrew
-# instagram_username: webstercrew
-linkedin_username: lorenzocitro
-# github_username:  webstercrew
-# youtube_channel_id: webstercrew
-# reddit_username: webstercrew
-# behance_username: webstercrew
-# dribbble_username: webstercrew
-# spotify_username: webstercrew
+email: contactus@citherhome.com
+# facebook_username: lorenzo.citro.dot.xero
+# twitter_username: citherhome
+# instagram_username: citherhome
+# linkedin_username: lorenzocitro
+# github_username:  citherhome
+# youtube_channel_id: citherhome
+# reddit_username: citherhome
+# behance_username: citherhome
+# dribbble_username: citherhome
+# spotify_username: citherhome
 
 # Google Analytics
 #google-analytics: UA-XXXXXXXXX-Y
 
 # Disqus
-# disqus-shortname: webstercrew
+# disqus-shortname: citherhome
 
 # Name of the Author
 author-name: Lorenzo Citro

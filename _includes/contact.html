@@ -22,10 +22,14 @@
                 <i class="fab fa-twitter"></i>Tweet us
             </a>
             {% endunless %}
+            {% unless site.facebook_username == and site.twitter_username == and site.instagram_username == and site.linkedin_username == and
+                site.github_username == and site.youtube_channel_id == and site.reddit_username == and site.behance_username == and
+                site.dribbble_username == and site.spotify_username == %}
             <hr>
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
                 You Can find the founder also here
             </h3>
+            {% endunless %}
             <div class="column is-full is-size-3">
                 {% unless site.facebook_username == %}
                 <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-primary"><i class="fab fa-facebook"></i></a>
