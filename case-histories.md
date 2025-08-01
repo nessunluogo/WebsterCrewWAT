@@ -5,8 +5,8 @@ description: Case histories
 permalink: "/case-histories"
 ---
 
-Hello, we are an Internet Crew that deals with digital marketing and IT development working on the Net. It was born on
-1999 working at **Class Editori** for the online Freetime area of University Magazine **Campusweb**. We worked for 
+Hello, we are an Internet Crew that deals with digital marketing and IT development working on the Net. Our experiece 
+was born at **Class Editori** for the online Freetime area of University Magazine **Campusweb**. We worked for 
 **RCS - Rizzoli Corriere della Sera** (founding the social media action for **Max Magazine** and **OGGI** and working
 online for other brand magazines), **Mondandori**, **Tiscali Italia** (social media action and videoproducing business
 developing), **Tiscali UK** (inside content and videoproducing unit), **CondéNast**(online content for **GQ**, 
