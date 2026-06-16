@@ -14,7 +14,7 @@ meta-description: We develop the future now
 description: >-
   We are an Internet Crew that develops the future with the new technologies now.
   We live completely online so we are flexible, fast and affordable for you and
-  International Companies.
+  International Companies.<br>Specialized in AI and Machine Learning
 # URL of Image of the Site
 site-image: /assets/images/meta.jpg
 # Keywords of the Site
@@ -35,7 +35,7 @@ case-histories-download: https://docs.google.com/document/d/1mdgrwqGQQZXpUEIwu5i
 # URL of the services images
 services-image: /assets/images/services.png
 # Services about text:
-services-about: The Cither Home space has been using the platform Jekyll written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open source Massachusetts Institute of Technology License and customized in dynamic setting by Cither Home. The icons are by Thenounproject. The Cither Home brand is under Creative Commons License. Attribution - Non Commercial - No Derivative Works.
+services-about: The Cither Home space has been using the platform Jekyll written in Ruby by Tom Preston-Werner, GitHub's co-founder, it is distributed under the open source Massachusetts Institute of Technology License and customized in dynamic setting by Cither Home. The icons are by TheNounProject. The Cither Home brand is under Creative Commons License. Attribution - Non Commercial - No Derivative Works.
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: /assets/images/1280x720_Placeholder.png
